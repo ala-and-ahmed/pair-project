@@ -11,51 +11,92 @@
 <div id="pre-game">
     <div class="welcome">
         <h3>🍀🍀 Welcome to our game 🍀🍀</h3>
-            
-
-        <div id="photos"></div>
-
-
-
-
-
-
-
-
-
-
-
-
+        <h3 id="heart" >💖💖💖Have Fun💖💖💖</h3>
+        <div id="carro">
+            <button onclick="prev()"><strong>prev</strong></button>
+            <img id=change src="./images/cycy.jfif" alt="">
+            <button onclick="next()"><strong>next</strong></button>
+        </div>
+        <button id="yalla" onclick=yalla()>🔓<strong> Let's Start </strong> 🔓</button>
     </div>
 </div>
 
 <div id="game"> 
     <audio id="song"  autoplay >
-       <source src="./song/20th-century-fox-intro-logo-hd.mp3" type="audio/mp3">
+
+       <source src="./song/10-seconds-basic-introoutro-template.mp3" type="audio/mp3">
     </audio> 
         
-    <h2>memorie game</h2>
+    <h2>💫Memorie Game💫</h2>
     <h1 id="count"></h1>
     <div id="page">
         <button id="start" onclick="cont()">start</button>
         <button id="again" onclick="ref()">play again</button>
         <div id="imgs">
-            <img src="./images/achref.jpg" alt="Achref"class="images achref">
-            <img src="./images/cycy.jfif" alt="Cycy" class="images cycy">
-            <img src="./images/fadher.jfif" alt="Fadher" class="images fadher">
-            <img src="./images/halim.jfif" alt="Halim" class="images halim">
-            <img src="./images/hana.png" alt="Hana" class="images hana">
-            <img src="./images/karmous.jfif" alt="karmous" class="images karmous">
-            <img src="./images/saadi.jfif" alt="Saadi" class="images saadi">
-            <img src="./images/wala.jfif" alt="Wala" class="images wala">
-            <img src="./images/achref.jpg" alt="Achref" class="images achref">
-            <img src="./images/cycy.jfif" alt="Cycy" class="images cycy">
-            <img src="./images/fadher.jfif" alt="Fadher" class="images fadher">
-            <img src="./images/halim.jfif" alt="Halim" class="images halim">
-            <img src="./images/hana.png" alt="Hana" class="images hana">
-            <img src="./images/karmous.jfif" alt="karmous" class="images karmous">
-            <img src="./images/saadi.jfif" alt="Saadi" class="images saadi">
-            <img src="./images/wala.jfif" alt="Wala" class="images wala">
+            <div class="achref">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Achref"class="images front">
+                <img src="./images/achref.jpg" alt="Achref"class="images back">
+            </div>
+            <div class="cycy">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Cycy" class="images front">
+                <img src="./images/cycy.jfif" alt="Cycy" class="images back">
+            </div>
+            <div class="fadher">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Fadher" class="images front">
+                <img src="./images/fadher.jfif" alt="Fadher" class="images back">
+            </div>
+            <div class="halim">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Halim" class="images front">
+                <img src="./images/halim.jfif" alt="Halim" class="images back">
+            </div>
+            <div class="hana">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Hana" class="images front">
+                <img src="./images/hana.png" alt="Hana" class="images back">
+            </div>
+            <div class="karmous">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="karmous" class="images front">
+                <img src="./images/karmous.jfif" alt="karmous" class="images back">
+            </div>
+            <div class="saadi">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Saadi" class="images front">
+                <img src="./images/saadi.jfif" alt="Saadi" class="images back">
+            </div>
+            <div class="wala">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Wala" class="images front">
+                <img src="./images/wala.jfif" alt="Wala" class="images back">
+            </div>
+            <div class="achref">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Achref" class="images front">
+                <img src="./images/achref.jpg" alt="Achref" class="images back">
+            </div>
+            <div class="cycy">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Cycy" class="images front">
+                <img src="./images/cycy.jfif" alt="Cycy" class="images back">
+            </div>
+            <div class="fadher">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Fadher" class="images front">
+                <img src="./images/fadher.jfif" alt="Fadher" class="images back">
+            </div>
+            <div class="halim">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Halim" class="images front">
+                <img src="./images/halim.jfif" alt="Halim" class="images back">
+            </div>
+            <div class="hana">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Hana" class="images front">
+                <img src="./images/hana.png" alt="Hana" class="images back">
+            </div>
+            <div class="karmous">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="karmous" class="images front">
+                <img src="./images/karmous.jfif" alt="karmous" class="images back">
+            </div>
+            <div class="saadi">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Saadi" class="images front">
+                <img src="./images/saadi.jfif" alt="Saadi" class="images back">
+            </div>
+            <div class="wala">
+                <img src="./images/95878343_244329290141890_3872668042529865728_n.jpg" alt="Wala" class="images front">
+                <img src="./images/wala.jfif" alt="Wala" class="images back">
+            </div>
         </div>
     </div>  
 </div>

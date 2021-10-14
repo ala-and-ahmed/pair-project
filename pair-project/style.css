@@ -1,6 +1,5 @@
 body{
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(251,71,71,1) 50%, rgba(252,176,69,1) 100%);
+    background-image: url("./images/6bkgdrn.jpg") 
 }
 #page{
     display: grid;
@@ -25,8 +24,39 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-
 }
+/* .wala>.front , .wala>.back{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.hana>.front , .hana>.back{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.halim>.front , .halim>.back{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.karmous>.front , .karmous>.back{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.saadi>.front , .saadi>.back{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.fadher>.front , .fadher>.back{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.achref>.front , .achref>.back{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.cycy>.front , .cycy>.back{
+    position: absolute;
+    backface-visibility: hidden;
+} */
 .images{
     width: 300px;
     height: 150px;
@@ -37,7 +67,7 @@ body{
     
 }
 h2{
-    margin: 15px 37% ;
+    margin: 10px 33% 0px ;
     font-size: xx-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -53,6 +83,10 @@ h3{
     animation: bob 3s ease infinite;
 }
 
+#heart{
+    margin: 15px 30%  ;
+}
+
 
 @keyframes bob{
     0%{
@@ -61,17 +95,20 @@ h3{
     }
     100%{
         letter-spacing: 12px;
-        color: rgb(16, 1, 29);
+        color: rgb(#db445c);
     }
 }
 
 h1 {
     text-align: center;
-    font-size: 60px;
-    margin-top: 0px;
+    font-size: 50px;
+    margin-top: 18px;
     font-family: "sevenSegment";
-    font-size: 3rem;
     color:blue ;
+    line-height: 20px;
+  }
+  #count{
+      margin-left:-20px;
   }
 
   #pre-game{
@@ -113,6 +150,43 @@ h1 {
     opacity: 0.7;
     padding: 5px;
 }
+
+#carro{
+    margin:100px 300px 0px;
+}
+img{
+    width: 700px;
+    height: 350px;
+    border-radius: 20px;
+}
+button{
+    width: 90px;
+    height: 60px;
+    padding:5px;
+    font-size: bold;
+    font-family: monospace;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgb(83 253 255) 0%, rgb(226 70 94) 50%,rgb(12 5 12)  100%)
+}
+button:hover{
+    width: 100px;
+    height: 70px;
+}
+
+
+#yalla{
+    width: 300px;
+    height: 100px;
+    margin-left: 600px;
+}
+#yalla:hover{
+    width:320px;
+    height: 110px;
+}
+
+
+
+
 
 
 
