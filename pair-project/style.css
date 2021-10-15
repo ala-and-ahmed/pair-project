@@ -25,35 +25,34 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-/* .wala>.front , .wala>.back{
+#back{
+    position: absolute;
+}
+/* .hana{
     position: absolute;
     backface-visibility: hidden;
 }
-.hana>.front , .hana>.back{
+.halim{
     position: absolute;
     backface-visibility: hidden;
 }
-.halim>.front , .halim>.back{
+.karmous{
     position: absolute;
     backface-visibility: hidden;
 }
-.karmous>.front , .karmous>.back{
+.saadi{
     position: absolute;
     backface-visibility: hidden;
 }
-.saadi>.front , .saadi>.back{
+.fadher{
     position: absolute;
     backface-visibility: hidden;
 }
-.fadher>.front , .fadher>.back{
+.achref{
     position: absolute;
     backface-visibility: hidden;
 }
-.achref>.front , .achref>.back{
-    position: absolute;
-    backface-visibility: hidden;
-}
-.cycy>.front , .cycy>.back{
+.cycy{
     position: absolute;
     backface-visibility: hidden;
 } */
@@ -138,10 +137,12 @@ h1 {
     border: 2px solid goldenrod;
     font-weight: bolder;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    position :absolute;
+    position: absolute;
     width: 100px;
     height: 70px;
-    right:0px;
+    left: 0;
+    margin-top: 100px ;
+    
     
         
         
@@ -152,7 +153,7 @@ h1 {
 }
 
 #carro{
-    margin:100px 300px 0px;
+    margin:100px 200px 0px;
 }
 img{
     width: 700px;
@@ -160,6 +161,7 @@ img{
     border-radius: 20px;
 }
 button{
+    cursor: pointer;
     width: 90px;
     height: 60px;
     padding:5px;
@@ -183,6 +185,24 @@ button:hover{
     width:320px;
     height: 110px;
 }
+
+#skin1 , #skin2{
+    width: 80px;
+    height: 350px;
+}
+#skin1{
+    background-image: url(./images/morgana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#skin2{
+    background-image: url(./images/Darius_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
 
 
 
