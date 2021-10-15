@@ -11,51 +11,68 @@
 <div id="pre-game">
     <div class="welcome">
         <h3>🍀🍀 Welcome to our game 🍀🍀</h3>
-            
-
-        <div id="photos"></div>
-
-
-
-
-
-
-
-
-
-
-
-
+        <h3 id="heart" >💖💖💖Have Fun💖💖💖</h3>
+        <div id="carro">
+            <button onclick="m()" id="skin1"></button>
+            <button onclick="prev()"><strong>prev</strong></button>
+            <img id=change src="./images/rule0.png" alt="">
+            <button onclick="next()"><strong>next</strong></button>
+            <button onclick="d()" id="skin2"></button>
+        </div>
+        <button id="yalla" onclick=yalla()>🔓<strong> Let's Start </strong> 🔓</button>
     </div>
 </div>
 
 <div id="game"> 
     <audio id="song"  autoplay >
-       <source src="./song/20th-century-fox-intro-logo-hd.mp3" type="audio/mp3">
+
+       <source src="./song/10-seconds-basic-introoutro-template.mp3" type="audio/mp3">
     </audio> 
         
-    <h2>memorie game</h2>
+    <h2>💫Memory Game💫</h2>
     <h1 id="count"></h1>
     <div id="page">
-        <button id="start" onclick="cont()">start</button>
+        <button id="start" onclick="cont();achref();achref2();wala();wala2();halim();halim2();cycy();cycy2();fadher();fadher2();saadi();saadi2();karmous();karmous2();hana();hana2()">start</button>
         <button id="again" onclick="ref()">play again</button>
         <div id="imgs">
-            <img src="./images/achref.jpg" alt="Achref"class="images achref">
-            <img src="./images/cycy.jfif" alt="Cycy" class="images cycy">
-            <img src="./images/fadher.jfif" alt="Fadher" class="images fadher">
-            <img src="./images/halim.jfif" alt="Halim" class="images halim">
-            <img src="./images/hana.png" alt="Hana" class="images hana">
-            <img src="./images/karmous.jfif" alt="karmous" class="images karmous">
-            <img src="./images/saadi.jfif" alt="Saadi" class="images saadi">
-            <img src="./images/wala.jfif" alt="Wala" class="images wala">
-            <img src="./images/achref.jpg" alt="Achref" class="images achref">
-            <img src="./images/cycy.jfif" alt="Cycy" class="images cycy">
-            <img src="./images/fadher.jfif" alt="Fadher" class="images fadher">
-            <img src="./images/halim.jfif" alt="Halim" class="images halim">
-            <img src="./images/hana.png" alt="Hana" class="images hana">
-            <img src="./images/karmous.jfif" alt="karmous" class="images karmous">
-            <img src="./images/saadi.jfif" alt="Saadi" class="images saadi">
-            <img src="./images/wala.jfif" alt="Wala" class="images wala">
+            <div id="back">
+                <a onclick="ach()"><img onclick="bob(this)" src="./images/achref.jpg" alt="Achref"  id="achref"  class="images back "></a>
+                <a onclick="cy()"><img onclick="bob(this)" src="./images/cycy.jfif" alt="Cycy" id="cycy"  class="images back"></a>
+                <a onclick="fa()"><img onclick="bob(this)" src="./images/fadher.jfif" alt="Fadher" id="fadher" class="images back"></a>
+                <a onclick="ha()"><img onclick="bob(this)" src="./images/halim.jfif" alt="Halim" id="halim" class="images back"></a>
+                <a onclick="han()"><img onclick="bob(this)" src="./images/hana.png" alt="Hana" id="hana" class="images back"></a>
+                <a onclick="kar()"><img onclick="bob(this)" src="./images/karmous.jfif" alt="karmous" id="karmous" class="images back"></a>
+                <a onclick="saa()"><img onclick="bob(this)" src="./images/saadi.jfif" alt="Saadi" id="saadi"  class="images back"></a>
+                <a onclick="wa()"><img onclick="bob(this)" src="./images/wala.jfif" alt="Wala" id="wala"   class="images back"></a>
+                <a onclick="cy2()"><img onclick="bob(this)" src="./images/cycy.jfif" alt="Cycy"  id="cycy2" class="images back"></a>    
+                <a onclick="fa2()"><img onclick="bob(this)" src="./images/fadher.jfif" alt="Fadher" id="fadher2"  class="images back"></a>
+                <a onclick="ach2()"><img onclick="bob(this)" src="./images/achref.jpg" alt="Achref"   id="achref2" class="images back"></a> 
+                <a onclick="ha2()"><img onclick="bob(this)" src="./images/halim.jfif" alt="Halim"  id="halim2"  class="images back"></a>
+                <a onclick="kar2()"><img onclick="bob(this)" src="./images/karmous.jfif" alt="karmous" id="karmous2" class="images back"></a> 
+                <a onclick="han2()"><img onclick="bob(this)" src="./images/hana.png" alt="Hana"  id="hana2" class="images back"> </a> 
+                <a onclick="wa2()"><img onclick="bob(this)" src="./images/wala.jfif" alt="Wala" id="wala2" class="images back"> </a>    
+                <a onclick="saa2()"><img onclick="bob(this)" src="./images/saadi.jfif" alt="Saadi"  id="saadi2"  class="images back"></a>   
+            </div>
+            <div>
+                <img src="./images/6bkgdrn.jpg" alt="Achref" class="images achref front">
+                <img src="./images/6bkgdrn.jpg" alt="Cycy" class="images cycy front">
+                <img src="./images/6bkgdrn.jpg" alt="Fadher" class="images fadher front">
+                <img src="./images/6bkgdrn.jpg" alt="Halim" class="images halim front">
+                <img src="./images/6bkgdrn.jpg" alt="Hana" class="images hana front">
+                <img src="./images/6bkgdrn.jpg" alt="karmous" class="images karmous front">
+                <img src="./images/6bkgdrn.jpg" alt="Saadi" class="images saadi front">
+                <img src="./images/6bkgdrn.jpg" alt="Wala" class="images wala front">
+                <img src="./images/6bkgdrn.jpg" alt="Cycy" class="images cycy2 front">
+                <img src="./images/6bkgdrn.jpg" alt="Fadher" class="images fadher2 front">
+                <img src="./images/6bkgdrn.jpg" alt="Achref" class="images achref2 front">
+                <img src="./images/6bkgdrn.jpg" alt="Halim" class="images halim2 front">
+                <img src="./images/6bkgdrn.jpg" alt="karmous" class="images karmous2 front">
+                <img src="./images/6bkgdrn.jpg" alt="Hana" class="images hana2 front">
+                <img src="./images/6bkgdrn.jpg" alt="Wala" class="images wala2 front">
+                <img src="./images/6bkgdrn.jpg" alt="Saadi" class="images saadi2 front">
+            </div>
+            
+            
         </div>
     </div>  
 </div>
